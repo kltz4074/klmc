@@ -15,18 +15,14 @@
 
 After extensive experience maintaining this fork and learning about the internal issues within Modrinth App's codebase, **we now recommend alternative launchers** that offer better stability, architecture, and development practices:
 
-### 🎯 **Recommended Alternatives**
-
-#### **For Low-End Systems (8GB RAM or less, multi-tasking)**
+### 🎯 **Recommended Alternatives**:
 - **[Prism Launcher](https://github.com/PrismLauncher/PrismLauncher)** - Lightweight, stable, and highly efficient
-  - For **offline/cracked support**: Use [**ElyPrismLauncher**](https://elyprismlauncher.github.io/)
-
-#### **For Mid to High-End Systems (16GB+ RAM)**
-- **[X Minecraft Launcher (XMCL)](https://xmcl.app/en/)** - Feature-rich with modern UI and unique capabilities
-  - **Offline/cracked support**: Currently no fork exists. If you need this feature, feel free to [**open an Issue**](https://github.com/MiguVT/migurinth/issues) and I'll be happy to create a fork with offline support.
+  - For **offline/cracked support + more features**: Use [**Freesm Launcher**](https://elyprismlauncher.github.io/)
+- **[Pandora Launcher](https://github.com/Moulberry/PandoraLauncher/)** - WIP, follow the best practices, learn about what other projects have done wrong and made by a dev who really knows what hes doing (Axiom DEV)
+- **[AstralRinth](https://git.astralium.su/didirus/AstralRinth)** - Modrinth fork, same as migurinth but with also elyby support and not in maintenance mode.
 
 ### 📦 **Portable Mode**
-Both **Prism Launcher** and **XMCL** (and their forks) include **native portable mode support** with much more organized and professional development practices than Modrinth App.
+Both **Prism Launcher** and **Pandora Launcher** (and their forks) include **native portable mode support** with much more organized and professional development practices than Modrinth App.
 
 ---
 
