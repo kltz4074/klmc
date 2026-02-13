@@ -1,147 +1,93 @@
-# 🌱 **Migurinth**
+# 🌱 KLMC
 
-[![Latest Release](https://img.shields.io/github/v/release/miguvt/migurinth?color=ea76cb&label=Latest%20Release&style=for-the-badge)](https://github.com/miguvt/migurinth/releases)
-![Commit Activity](https://img.shields.io/github/commit-activity/m/miguvt/migurinth?color=ea76cb&label=commits&style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/miguvt/migurinth?color=ea76cb&label=last%20commit&style=for-the-badge)
+[![Latest Release](https://img.shields.io/github/v/release/kltzqu/klmc?color=ea76cb&label=Latest%20Release&style=for-the-badge)](https://github.com/kltzqu/klmc/releases)
+![Commit Activity](https://img.shields.io/github/commit-activity/m/kltzqu/klmc?color=ea76cb&style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/kltzqu/klmc?color=ea76cb&style=for-the-badge)
 
-> **Migurinth** is an independent fork of the original Modrinth App, offering a **cleaner, privacy-focused experience** by removing telemetry and ads, while providing **full offline/cracked account support**.
-> This project is **not affiliated** with or **endorsed by Modrinth**.
+**KLMC** is a community-driven fork of the Modrinth App.
 
----
-
-## ⚠️ **Important Notice - Project Status**
-
-> **📢 MiguRinth is currently in maintenance mode with limited updates (~once per month, sometimes more or less).**
-
-After extensive experience maintaining this fork and learning about the internal issues within Modrinth App's codebase, **we now recommend alternative launchers** that offer better stability, architecture, and development practices:
-
-### 🎯 **Recommended Alternatives**:
-- **[Prism Launcher](https://github.com/PrismLauncher/PrismLauncher)** - Lightweight, stable, and highly efficient
-  - For **offline/cracked support + more features**: Use [**Freesm Launcher**](https://elyprismlauncher.github.io/)
-- **[Pandora Launcher](https://github.com/Moulberry/PandoraLauncher/)** - WIP, follow the best practices, learn about what other projects have done wrong and made by a dev who really knows what hes doing (Axiom DEV)
-- **[AstralRinth](https://git.astralium.su/didirus/AstralRinth)** - Modrinth fork, same as migurinth but with also elyby support and not in maintenance mode.
-
-### 📦 **Portable Mode**
-Both **Prism Launcher** and **Pandora Launcher** (and their forks) include **native portable mode support** with much more organized and professional development practices than Modrinth App.
+Our goal is to evolve the launcher into something bigger:  
+**privacy-first**, **ad-free**, **full offline/cracked accounts support**, **CurseForge integration**, and — most importantly — **built-in social features** that turn the launcher into a real community hub.
 
 ---
 
-### 🚫 **Feature Requests Policy**
+## 🎯 Vision: The Next Generation Launcher
 
-**Issues requesting new features or improvements will NOT be implemented.** Here's why:
+We’re working to create a launcher that feels like home for the entire Minecraft community:
 
-- The **Modrinth development team** has demonstrated **zero collaboration** when it comes to accepting or implementing new features from the community
-- Their "if it works, don't touch it" philosophy has resulted in **poorly structured code** and **architectural limitations** that prevent meaningful improvements
-- The codebase has significant technical debt with **outdated/obsolete libraries** that cause frequent issues
-- **Every change we make risks breaking something else** due to the fragile codebase structure
-
-We believe in transparency: Modrinth's infrastructure for hosting mods and modpacks is excellent, but **the launcher itself has not been properly rewritten since its creation** and the team has not prioritized fixing fundamental architectural problems.
-
----
-
-### 💙 **Thank You to Our Users**
-
-We are incredibly grateful for the support all our users have given us throughout this journey. We apologize that we have to maintain this limited update schedule, but the reality is that **Modrinth App's codebase makes it extremely difficult to implement changes without causing breakage**.
-
-**If you're a current MiguRinth user**, we encourage you to explore the alternatives mentioned above for a more stable, feature-rich experience with better long-term support.
+- In-app text chat, voice & video calls  
+- User profiles, friends, status updates, avatars  
+- Activity feed: share screenshots, modpacks, servers, worlds  
+- Seamless mod & modpack downloads from **Modrinth + CurseForge**  
+- Complete support for offline / cracked accounts  
+- No telemetry, no ads, no tracking
 
 ---
 
-## 📚 Table of Contents
+## ⚠️ Current Status
 
-- [🌱 **Migurinth**](#-migurinth)
-  - [📚 Table of Contents](#-table-of-contents)
-  - [🚀 **Why Choose Migurinth?**](#-why-choose-migurinth)
-    - [✨ **Features**](#-features)
-  - [📸 **Screenshots**](#-screenshots)
-  - [📥 **Download \& Installation**](#-download--installation)
-    - [**Installation Instructions**](#installation-instructions)
-  - [🌟 **What Makes Migurinth Different?**](#-what-makes-migurinth-different)
-  - [📄 **License**](#-license)
-  - [⚠️ **Disclaimer**](#️-disclaimer)
-  - [📧 **Contact**](#-contact)
+KLMC is actively developed and still growing.
+
+What’s already working:
+- Ads removed
+- Full offline/cracked account support
+- All core Modrinth features preserved
+
+Social features and CurseForge integration are in progress / planned.
 
 ---
 
-## 🚀 **Why Choose Migurinth?**
+## ✨ Features Overview
 
-### ✨ **Features**
-
-- **No Telemetry**: Enjoy your privacy—no data tracking or analytics.
-- **Ad-Free Experience**: No intrusive ads for a clean and distraction-free experience.
-- **Offline/Cracked Support**: Full support for offline/cracked Minecraft accounts.
-- **Same Build Process**: Uses the same build and update system as the original Modrinth app for full compatibility.
-
----
-
-## 📸 **Screenshots**
-
-|                             Home                             |                                Mod Browser                                |                               Settings                               |
-| :----------------------------------------------------------: | :-----------------------------------------------------------------------: | :------------------------------------------------------------------: |
-| ![Home Screenshot](.github/assets/MiguRinth/Readme/home.png) | ![Mod Browser Screenshot](.github/assets/MiguRinth/Readme/modbrowser.png) | ![Settings Screenshot](.github/assets/MiguRinth/Readme/settings.png) |
-
-> _*Screenshots may vary slightly depending on your operating system or app version. Click on the images to view them in full resolution.*_
+| Feature                        | Modrinth | KLMC (current) | KLMC (planned) |
+|--------------------------------|----------|----------------|----------------|
+| No telemetry                   | —        | ✅             | ✅             |
+| No ads                         | —        | ✅             | ✅             |
+| Offline / cracked accounts     | —        | ✅             | ✅             |
+| Modrinth content               | ✅       | ✅             | ✅             |
+| CurseForge content             | —        | ⚙️             | ✅             |
+| In-app chat                    | —        | —              | ✅             |
+| Voice & video calls            | —        | —              | ✅             |
+| User profiles & friends        | —        | —              | ✅             |
+| Community feed & sharing       | —        | —              | ✅             |
 
 ---
 
-## 📥 **Download & Installation**
+## 📥 Download & Install
 
-You can download the latest version of Migurinth from the [**Releases**](https://github.com/miguvt/migurinth/releases) page.
+→ [Latest releases →](https://github.com/kltzqu/klmc/releases)
 
-### **Installation Instructions**
-
-1. **Windows:**
-
-   - Click "INSTALL WINDOWS"
-   - Run the installer and follow the prompts.
-
-2. **macOS:**
-
-   - Click "INSTALL MACOS"
-   - Open the `.dmg` and drag Migurinth into the **Applications** folder.
-
-3. **Linux:**
-
-   - Download the appropriate `.AppImage`, `.deb`, or `.rpm` package.
-   - Follow your distribution’s standard installation procedure.
-   - For AppImage, make it executable with:
-
-     ```bash
-     chmod +x Migurinth.AppImage
-     ./Migurinth.AppImage
-     ```
+**Windows** → run the .exe installer  
+**macOS** → open .dmg → drag to Applications  
+**Linux** → .AppImage / .deb / .rpm  
+(AppImage example: `chmod +x KLMC*.AppImage && ./KLMC*.AppImage`)
 
 ---
 
-## 🌟 **What Makes Migurinth Different?**
+## Alternatives
 
-| Feature            | Original Modrinth | **Migurinth**                  | Other Forks         |
-| ------------------ | ----------------- | ------------------------------ | ------------------- |
-| Telemetry          | Enabled           | **Disabled**                   | Sometimes enabled   |
-| Ads                | Supported         | **No Ads**                     | Often present       |
-| Offline/Cracked    | Unsupported       | **Full Support**               | Rarely supported    |
-| Build Process      | Standard          | **Same as Original**           | Often modified      |
-| User Experience    | Standard          | **Cleaner (No Ads/Telemetry)** | Sometimes intrusive |
-| Auto-Update System | Standard          | **Same as Original**           | Inconsistent        |
-
-Migurinth was created to provide a **clean, privacy-friendly experience** with **full offline/cracked account support** without sacrificing usability or performance.
+If you need a more mature launcher right now, consider:
+- Prism Launcher (very stable, great for custom setups)  
+- Freesm Launcher (Prism fork focused on cracked/offline)  
+- modrinth  
+- AstralRinth (another active Modrinth-based fork)
 
 ---
 
-## 📄 **License**
+## License
 
-Migurinth is based on the original Modrinth App, which is licensed under the [AGPL-3.0 License](https://github.com/modrinth/code/blob/main/apps/app/LICENSE).
-This fork makes non-intrusive changes focused on removing telemetry and ads for a better user experience.
-
----
-
-## ⚠️ **Disclaimer**
-
-Migurinth is an **independent fork** and is **not affiliated** with or **endorsed by Modrinth**.
-This project was created for a better experience without telemetry, ads, or intrusive features.
+AGPL-3.0 (same as the original Modrinth App)
 
 ---
 
-## 📧 **Contact**
+## Disclaimer
 
-Have questions or feedback? Feel free to open an issue or reach out on [GitHub](https://github.com/miguvt/migurinth).
+KLMC is a **community fork** created to experiment with new ideas while keeping the best parts of Modrinth.  
+It is not developed, maintained, or endorsed by the Modrinth team.
+
+---
+
+Ideas? Feedback? Want to contribute to the social features, UI, or integrations?  
+Open an issue or make pull-request — i'm open to collaboration.
+
+Let’s make Minecraft launchers more social and fun together!❤️‍🔥🎉
